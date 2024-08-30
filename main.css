@@ -26,9 +26,12 @@ img{
 
 h1{
     font-size: 140%;
+    padding-bottom: 2rem;
 }
 h2{
     font-size: 120%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 h3{
     font-size: 112.5%;
@@ -42,11 +45,22 @@ body{
     background:var(--main-bg-color);
 }
 
+body ul{
+    list-style: disc;
+    list-style-position: outside;
+}
+
+body ul li{
+    padding: 5px 10px;
+}
+
 main{
     width:75%;
     margin: 0 auto;
 }
-
+p{
+    padding-bottom: 1rem;
+}
 
 a:hover{
     color:blue;

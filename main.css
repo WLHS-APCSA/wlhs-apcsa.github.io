@@ -10,6 +10,11 @@
     --main-bg-color: rgba(202, 151, 44, 0.2);
 }
 
+#unit-1-output{
+    width: 20%;
+    height:auto;
+}
+
 *{
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-weight: 400;
